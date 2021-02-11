@@ -8,20 +8,15 @@ def countB(w):
 
 print(countB("baseball"))
 
-def removeLast(w):
-    letter = w[-1]
-    
-    return letter
+def sumBetweenOdd(x,y):
+    total = 0
 
-print(removeLast("winter"))
+    for i in range(x + 1, y):
+        if i % 2 != 0:
+            total = total + i
+    return total
 
-def firstLast(w):
-    if w[0] == w[-1]:
-        return True
-    else:
-        return False
-
-print(firstLast("alph"))
+print(sumBetweenOdd(5, 13))
 
 def firstLast(w):
     if w[0] == w[-1]:
@@ -30,3 +25,13 @@ def firstLast(w):
         return False 
 
 print(firstLast("roar"))
+
+def removeLast(x, w):
+    
+    word = 0
+    for i in range(0,w[-1]):
+        w[i] == word
+    
+    return word
+
+print(removeLast("winter"))
