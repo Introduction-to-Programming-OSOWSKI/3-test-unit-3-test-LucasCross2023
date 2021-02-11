@@ -18,16 +18,6 @@ def sumBetweenOdd(x,y):
 
 print(sumBetweenOdd(5, 13))
 
-def removeLast(x, w):
-    
-    word = 0
-    for i in range(0,w[1]):
-        w[i] == word
-    
-    return word
-
-print(removeLast("winter"))
-
 def firstLast(w):
     if w[0] == w[-1]:
         return True
