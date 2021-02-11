@@ -29,7 +29,7 @@ print(firstLast("roar"))
 def removeLast(x, w):
     
     word = 0
-    for i in range(0,w[-1]):
+    for i in range(0,w[1]):
         w[i] == word
     
     return word
